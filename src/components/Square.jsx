@@ -18,7 +18,7 @@ const SquareBtn = styled.button`
 `;
 
 function Square(props) {
-  return <SquareBtn onClick={props.onClickEvent}>{props.value}</SquareBtn>;
+  return <SquareBtn onClick={props.onClick}>{props.value}</SquareBtn>;
 }
 
 export default Square;
