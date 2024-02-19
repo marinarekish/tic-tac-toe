@@ -2,6 +2,7 @@ import { useState } from "react";
 import styled from "styled-components";
 import Square from "./Square";
 import Button from "./Button";
+import Statistic from "./Stat";
 
 const BoardDiv = styled.div`
   background-color: lightblue;
@@ -65,6 +66,7 @@ function Board() {
       <div onClick={handleReset}>
         <Button>Play Again</Button>
       </div>
+      <Statistic />
     </BoardDiv>
   );
 }
